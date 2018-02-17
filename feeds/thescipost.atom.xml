@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PSPT - TheSciPost</title><link href="https://pspt.in/" rel="alternate"></link><link href="https://pspt.in/feeds/thescipost.atom.xml" rel="self"></link><id>https://pspt.in/</id><updated>2018-02-11T19:00:00+05:30</updated><entry><title>Why and What and How is Travis CI</title><link href="https://pspt.in/why-and-what-is-travis-ci/" rel="alternate"></link><published>2018-02-11T19:00:00+05:30</published><updated>2018-02-11T19:00:00+05:30</updated><author><name>PSPT</name></author><id>tag:pspt.in,2018-02-11:/why-and-what-is-travis-ci/</id><summary type="html">&lt;p class="first last"&gt;Seems like Travis CI has a lot to offer for TSP&lt;/p&gt;
+</summary><content type="html">&lt;div class="section" id="what-is-continuous-integration"&gt;
+&lt;h2&gt;What is Continuous Integration?&lt;/h2&gt;
+&lt;p&gt;It is to make sure that code doesn't break at any point of time. The paradigm says to commit the code as frequently as possible to avoid 'merge hell'. These atomic commits along with unit testing will help prevent a lot of problems in the future.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-is-travis-ci"&gt;
+&lt;h2&gt;What is Travis CI?&lt;/h2&gt;
+&lt;p&gt;It helps in testing commits from many developers. Lets say there are many persons working on your code. A new person commits a new code without testing his version. If the new code breaks then the Travis CI will show the error and help us to sort out the issue.&lt;/p&gt;
+&lt;p&gt;I faced this issue when I tried adding new code to pelican theme.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="how-to-travis-ci"&gt;
+&lt;h2&gt;How to Travis CI?&lt;/h2&gt;
+&lt;p&gt;It is very straight forward. The following are required:
+- version control
+- tests.py file
+- .travis.yml file&lt;/p&gt;
+&lt;p&gt;My example of &lt;tt class="docutils literal"&gt;tests.py&lt;/tt&gt; file:&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;...code:: python&lt;/dt&gt;
+&lt;dd&gt;&lt;p class="first"&gt;import unittest&lt;/p&gt;
+&lt;dl class="last docutils"&gt;
+&lt;dt&gt;def test_one_plus_one_two:&lt;/dt&gt;
+&lt;dd&gt;return assertEqual(1+1, 2)&lt;/dd&gt;
+&lt;dt&gt;if __name__ == &amp;quot;__main__&amp;quot;:&lt;/dt&gt;
+&lt;dd&gt;unittest.main()&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;...
+My example of &lt;tt class="docutils literal"&gt;.travis.yml&lt;/tt&gt; file:&lt;/p&gt;
+&lt;p&gt;...code::yaml&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;langauge: python
+python:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;2.7&lt;/li&gt;
+&lt;li&gt;3.6&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;script: python tests.py&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;...&lt;/p&gt;
+&lt;p&gt;Thats it. You can now push it to github.&lt;/p&gt;
+&lt;p&gt;Travis CI will take care of all your requirements.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="CI"></category><category term="documentation"></category></entry></feed>
