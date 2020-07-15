@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Anivarth Peesapati",
+    "description": "",
+    "home_page_url": "https://anivarth.github.io",
+    "feed_url": "https://anivarth.github.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Anivarth Peesapati"
+    },
+    "items": [
+        {
+            "id": "https://anivarth.github.io/first-post.html",
+            "url": "https://anivarth.github.io/first-post.html",
+            "title": "First Post",
+            "summary": " ",
+            "content_html": "\n  <p>\n    \n  </p>",
+            "author": {
+                "name": "Anivarth Peesapati"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-07-15T10:21:42+05:30",
+            "date_modified": "2020-07-15T10:21:42+05:30"
+        }
+    ]
+}

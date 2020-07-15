@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Anivarth Peesapati</title>
+    <link href="https://anivarth.github.io/feed.xml" rel="self" />
+    <link href="https://anivarth.github.io" />
+    <updated>1970-01-01T05:30:00+05:30</updated>
+    <author>
+        <name>Anivarth Peesapati</name>
+    </author>
+    <id>https://anivarth.github.io</id>
+
+    <entry>
+        <title>First Post</title>
+        <author>
+            <name>Anivarth Peesapati</name>
+        </author>
+        <link href="https://anivarth.github.io/first-post.html"/>
+        <id>https://anivarth.github.io/first-post.html</id>
+
+        <updated>2020-07-15T10:21:42+05:30</updated>
+            <summary>
+                <![CDATA[
+                     
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+</feed>
